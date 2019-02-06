@@ -1,5 +1,6 @@
 import React, { Component, Fragment } from 'react';
-import EventPractice from './EventPractice';
+
+// import EventPractice from './EventPractice';
 /**
  * var React = requier('react');
  * var Component = React.Component;
@@ -8,15 +9,22 @@ import EventPractice from './EventPractice';
  * 번들링 = 묶는다.
  */
 import './App.css';
+// import VaildationSample from './VaildationSample';
 // import MyComponent from './MyComponent';
+// import ScrollBox from './ScrollBox';
+import IterationSample from './IterationSample';
 
 class App extends Component {
   render(){
     return(
-      <div>
+      <Fragment>
       {/* <MyComponent name="React" age={39}/> */}
-      <EventPractice />
-      </div>
+      {/* <EventPractice /> */}
+      {/* <VaildationSample /> */}
+      {/* <ScrollBox ref={(ref)=>this.scrollBox = ref} />
+      <button onClick={()=> this.scrollBox.scrollToBottom()}>맨 밑으로</button> */}
+      <IterationSample />
+      </Fragment>
     )
   }
 }
