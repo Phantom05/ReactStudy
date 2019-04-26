@@ -1,4 +1,6 @@
 import React, { Component} from 'react';
+import styles from "./App.css";
+import "./App.css";
 
 class LifeCycleSample extends Component{
   state = {
@@ -59,6 +61,10 @@ class LifeCycleSample extends Component{
         </h1>
         <p>color: {this.state.color}</p>
         <button onClick={this.handleClick}>더하기</button>
+
+        <div className={styles.box}>
+          ff
+        </div>
       </div>
     );
   }
