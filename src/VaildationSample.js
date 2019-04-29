@@ -1,6 +1,7 @@
 import React, { Component} from 'react';
 import "./ValidationSample.css";
 
+
 class VaildationSample extends Component {
   state = {
     password:'',
